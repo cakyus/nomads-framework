@@ -1,0 +1,3 @@
+[submodule "library/Nomads"]
+	path = library/Nomads
+	url = git://github.com/cakyus/nomads.git
