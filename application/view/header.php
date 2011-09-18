@@ -1,9 +1,6 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
-    "http://www.w3.org/TR/html4/strict.dtd"
-    >
-<html lang="en">
-<head>
-<title><?php echo $page_title;?></title>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<title><?php echo $this->documentTitle;?></title>
 <style type="text/css">
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -21,8 +18,8 @@ a:visited {
 }
 
 #container {
-	width: 100%;
-	text-align: center;
+	width: 90%;
+	text-align: left;
 }
 </style>
 </head><body><center><div id="container">
