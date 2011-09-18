@@ -7,8 +7,8 @@ class Index_Controller extends Nomads_Controller {
 	}
 	
 	public function index() {
-		$this->view->assign('documentTitle', 'Welcome');
-		$this->view->assign('pageTitle', 'Hello');
-		$this->view->render('index.php');
+		$this->view->set('documentTitle', 'Welcome');
+		$this->view->set('pageTitle', 'Hello');
+		$this->view->show('index.php');
 	}
 }
